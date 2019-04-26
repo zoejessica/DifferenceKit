@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6B2DF86D210E2C12004D2D40"
-               BuildableName = "DifferenceKit.framework"
-               BlueprintName = "DifferenceKit"
+               BuildableName = "DifferenceKitTestable.framework"
+               BlueprintName = "DifferenceKitTestable"
                ReferencedContainer = "container:DifferenceKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6B2DF86D210E2C12004D2D40"
-            BuildableName = "DifferenceKit.framework"
-            BlueprintName = "DifferenceKit"
+            BuildableName = "DifferenceKitTestable.framework"
+            BlueprintName = "DifferenceKitTestable"
             ReferencedContainer = "container:DifferenceKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,8 +65,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6B2DF86D210E2C12004D2D40"
-            BuildableName = "DifferenceKit.framework"
-            BlueprintName = "DifferenceKit"
+            BuildableName = "DifferenceKitTestable.framework"
+            BlueprintName = "DifferenceKitTestable"
             ReferencedContainer = "container:DifferenceKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,8 +83,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6B2DF86D210E2C12004D2D40"
-            BuildableName = "DifferenceKit.framework"
-            BlueprintName = "DifferenceKit"
+            BuildableName = "DifferenceKitTestable.framework"
+            BlueprintName = "DifferenceKitTestable"
             ReferencedContainer = "container:DifferenceKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B2DF878210E2C12004D2D40 /* DifferenceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2DF86E210E2C12004D2D40 /* DifferenceKit.framework */; };
+		6B2DF878210E2C12004D2D40 /* DifferenceKitTestable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2DF86E210E2C12004D2D40 /* DifferenceKitTestable.framework */; };
 		6B444B392163312700AEE32B /* ContentEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B444B382163312700AEE32B /* ContentEquatable.swift */; };
 		6B444B3F2165E3D700AEE32B /* ContentEquatableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B444B3E2165E3D700AEE32B /* ContentEquatableTest.swift */; };
 		6B5B409C211066BF00A931DB /* AlgorithmTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B4093211066BF00A931DB /* AlgorithmTest.swift */; };
@@ -41,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6B2DF86E210E2C12004D2D40 /* DifferenceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DifferenceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2DF86E210E2C12004D2D40 /* DifferenceKitTestable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DifferenceKitTestable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2DF877210E2C12004D2D40 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2DF88A210E39A8004D2D40 /* DifferenceKit.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DifferenceKit.xcconfig; sourceTree = "<group>"; };
 		6B444B382163312700AEE32B /* ContentEquatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentEquatable.swift; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B2DF878210E2C12004D2D40 /* DifferenceKit.framework in Frameworks */,
+				6B2DF878210E2C12004D2D40 /* DifferenceKitTestable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +100,7 @@
 		6B2DF86F210E2C12004D2D40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B2DF86E210E2C12004D2D40 /* DifferenceKit.framework */,
+				6B2DF86E210E2C12004D2D40 /* DifferenceKitTestable.framework */,
 				6B2DF877210E2C12004D2D40 /* Tests.xctest */,
 			);
 			name = Products;
@@ -171,9 +171,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6B2DF86D210E2C12004D2D40 /* DifferenceKit */ = {
+		6B2DF86D210E2C12004D2D40 /* DifferenceKitTestable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B2DF882210E2C12004D2D40 /* Build configuration list for PBXNativeTarget "DifferenceKit" */;
+			buildConfigurationList = 6B2DF882210E2C12004D2D40 /* Build configuration list for PBXNativeTarget "DifferenceKitTestable" */;
 			buildPhases = (
 				6B2DF869210E2C12004D2D40 /* Sources */,
 				6B2DF86A210E2C12004D2D40 /* Frameworks */,
@@ -185,9 +185,9 @@
 			);
 			dependencies = (
 			);
-			name = DifferenceKit;
+			name = DifferenceKitTestable;
 			productName = DifferenceKit;
-			productReference = 6B2DF86E210E2C12004D2D40 /* DifferenceKit.framework */;
+			productReference = 6B2DF86E210E2C12004D2D40 /* DifferenceKitTestable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6B2DF876210E2C12004D2D40 /* Tests */ = {
@@ -241,7 +241,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B2DF86D210E2C12004D2D40 /* DifferenceKit */,
+				6B2DF86D210E2C12004D2D40 /* DifferenceKitTestable */,
 				6B2DF876210E2C12004D2D40 /* Tests */,
 			);
 		};
@@ -325,7 +325,7 @@
 /* Begin PBXTargetDependency section */
 		6B2DF87A210E2C12004D2D40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6B2DF86D210E2C12004D2D40 /* DifferenceKit */;
+			target = 6B2DF86D210E2C12004D2D40 /* DifferenceKitTestable */;
 			targetProxy = 6B2DF879210E2C12004D2D40 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -473,7 +473,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryo.DifferenceKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotbeverage.DifferenceKitTestable;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -504,7 +504,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryo.DifferenceKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotbeverage.DifferenceKitTestable;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B2DF882210E2C12004D2D40 /* Build configuration list for PBXNativeTarget "DifferenceKit" */ = {
+		6B2DF882210E2C12004D2D40 /* Build configuration list for PBXNativeTarget "DifferenceKitTestable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B2DF883210E2C12004D2D40 /* Debug */,
